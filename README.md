@@ -16,10 +16,6 @@ Check out all Google Career Certificates here.
 
 # Google IT Automation With Python
 
-Author: Kyungrae Kim  
-Status: Completed
-
-
 ---
 
 ## Table of Contents
