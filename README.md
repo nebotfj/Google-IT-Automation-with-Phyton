@@ -1,4 +1,5 @@
-# Google-IT-Automation-with-Phyton
+# Google IT Automation with Phyton
+---
 This beginner-level, six-course certificate, developed by Google, is designed to provide IT professionals with in-demand skills -- including Python, Git, and IT automation -- that can help you advance your career.
 
 Knowing how to write code to solve problems and automate solutions is a crucial skill for anybody in IT. Python, in particular, is now the most in-demand programming language by employers.
@@ -14,13 +15,9 @@ If you’d like to learn the fundamentals of IT support, check out the beginner 
 Check out all Google Career Certificates here.
 
 
-# Google IT Automation With Python
-
----
-
 ## Table of Contents
 
-1. [Crash Course On Python]()
+1. [Crash Course On Python](https://www.coursera.org/learn/python-crash-course/home/)
 2. [Using Python to Interact with the Operating System]()
 3. [Introduction to Git and GitHub]()
 4. [Troubleshooting and Debugging Techniques]()
