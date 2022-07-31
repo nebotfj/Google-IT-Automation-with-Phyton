@@ -12,3 +12,28 @@ We recommend that you have Python installed on your machine. For some courses, y
 If you’d like to learn the fundamentals of IT support, check out the beginner level Google IT Support Professional Certificate. 
 
 Check out all Google Career Certificates here.
+
+
+# Google IT Automation With Python
+
+Author: Kyungrae Kim  
+Status: Completed
+
+
+---
+
+## Table of Contents
+
+1. [Crash Course On Python]()
+2. [Using Python to Interact with the Operating System]()
+3. [Introduction to Git and GitHub]()
+4. [Troubleshooting and Debugging Techniques]()
+5. [Configuration Management and the Cloud]()
+6. [Automating Real-World Tasks with Python]()
+
+---
+
+## Credit
+
+* [Grow With Google - A new certificate to help people grow careers in IT](https://www.blog.google/outreach-initiatives/grow-with-google/new-certificate-help-people-grow-careers/)
+* [Coursera - Google IT Automation with Python Professional Certificate](https://www.coursera.org/professional-certificates/google-it-automation#courses) 
