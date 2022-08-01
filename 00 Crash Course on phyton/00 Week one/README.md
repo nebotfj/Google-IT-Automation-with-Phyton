@@ -66,7 +66,7 @@ Why do we need to learn the syntax and semantics of a programming language?
      * [CORRECT] To allow us to clearly express what we want the computer to do 
      * To understand why our computer crashes	
 		
-		```
+```
 
 In a human language, __**syntax** is the rules for how a sentence is constructed__ while __**semantics** refers to the actual meaning of the statements__.
 In a programming language, __the **syntax** is the rules for how each instruction is written__ and __the **semantics** is the effects the instructions have__.  
