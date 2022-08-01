@@ -130,6 +130,30 @@ Benefits of using Python includes programming in Python usually feels similar to
 
 In programming, an interpreter is the program that reads and executes code. The Python interpreter is the program that reads what is in the recipe and translates it into instructions for your computer to follow.
 
+### A Note on Syntax and Code Blocks
+When writing code, using correct syntax is super important. Even a small typo, like a missing parentheses or an extra comma, can cause a syntax error and the code won't execute at all. Yikes. If your code results in an error or an exception, pay close attention to syntax and watch out for minor mistakes.
+
+If your syntax is correct, but the script has unexpected behavior or output, this may be due to a semantic problem. Remember that syntax is the rules of how code is constructed, while semantics are the overall effect the code has. It is possible to have syntactically correct code that runs successfully, but doesn't do what we want it to do.
+
+When working with the code blocks in exercises for this course, be mindful of syntax errors, along with the overall result of your code. Just because you fixed a syntax error doesn't mean that the code will have the desired effect when it runs! Once you’ve fixed an error in your code, don't forget to submit it to have your work checked.
+
+```
+Let's check whether you soaked all that in with a quick question! Select all options that explain why Python is relevant to today’s IT industry.
+* Python scripts are easy to write, understand, and maintain.
+Correcto
+Woohoo! Python is a language that tries to mimic our natural language and so Python scripts are generally easy to write, understand and maintain.
+
+* There are many system administration tools built with Python.
+Correcto
+You got it! Over the years, the Python community has developed a lot of additional tools that can be used by system administrators to get their job done.
+
+* Python was written by Guido van Rossum in 1991.
+* Python is available on a wide variety of platforms.
+Correcto
+Well done, you! Python is available on Windows, Linux, MacOS and even on mobile devices, making it a great tool for IT specialist looking to create scripts that can work across platforms.
+* There have been multiple major version releases over the years which incorporate significant changes to the language.
+```
+
 ### Other Languages
 There are different programming languages. Also, there are platform-specific scripting languages like PowerShell which is used on Windows, and Bash which is used on Linux. Each programming languages has its advantages and disadvantages.
 
