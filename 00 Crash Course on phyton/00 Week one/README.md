@@ -162,12 +162,12 @@ If you don’t already have Python installed on your machine, that’s alright. 
 In the meantime, you can still practice by using one of the many online Python interpreters or codepads available online. There’s not much difference between an interpreter and a codepad. An interpreter is more interactive than a codepad, but they both let you execute code and see the results.
 
 Below, you’ll find links to some of the most popular online interpreters and codepads. Give them a go to find your favorite.
-	* https://www.python.org/shell/
-	* https://www.onlinegdb.com/online_python_interpreter
-	* https://repl.it/languages/python3
-	* https://www.tutorialspoint.com/execute_python3_online.php
-	* https://rextester.com/l/python3_online_compiler
-	* https://trinket.io/python3
+* https://www.python.org/shell/
+* https://www.onlinegdb.com/online_python_interpreter
+* https://repl.it/languages/python3
+* https://www.tutorialspoint.com/execute_python3_online.php
+* https://rextester.com/l/python3_online_compiler
+* https://trinket.io/python3
 
 ### Additional Python resources
 While this course will give you information about how Python works and how to write scripts in Python, you’ll likely want to find out more about specific parts of the language. Here are some great ways to help you find additional info: 
