@@ -17,7 +17,7 @@ Check out all Google Career Certificates here.
 
 ## Table of Contents
 
-1. [Crash Course On Python](https://github.com/sirjn/Google-IT-Automation-with-Phyton-/tree/main/00%20Crash%20Course%20on%20phyton/00%20Week%20one)
+1. [Crash Course On Python](https://github.com/sirjn/Google-IT-Automation-with-Phyton/tree/main/00%20Crash%20Course%20on%20phyton)
 2. [Using Python to Interact with the Operating System]()
 3. [Introduction to Git and GitHub]()
 4. [Troubleshooting and Debugging Techniques]()
