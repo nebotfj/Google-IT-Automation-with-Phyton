@@ -56,7 +56,17 @@ The [official language reference](https://docs.python.org/3/reference/index.html
 
 ## Introduction to Programming
 ### What is programming?
-At a basic level, a computer program is a recipe of instructions that tells your computer what to do. When you write a program, you create a step by step recipe of what needs to be done to complete a task and when your computer executes the program it reads what you wrote and follows your instructions to the letter.  
+At a basic level, a computer program is a recipe of instructions that tells your computer what to do. When you write a program, you create a step by step recipe of what needs to be done to complete a task and when your computer executes the program it reads what you wrote and follows your instructions to the letter.
+
+```
+Did you get all that? Let's check with a quick question!
+Why do we need to learn the syntax and semantics of a programming language?
+     * To be able to easily switch to a different programming language
+     * So that we know which part is the subject and which one is the predicate
+     * [CORRECT] To allow us to clearly express what we want the computer to do 
+     * To understand why our computer crashes	
+		
+		```
 
 In a human language, __**syntax** is the rules for how a sentence is constructed__ while __**semantics** refers to the actual meaning of the statements__.
 In a programming language, __the **syntax** is the rules for how each instruction is written__ and __the **semantics** is the effects the instructions have__.  
