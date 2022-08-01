@@ -18,6 +18,12 @@ In this module we’ll introduce you to the Coursera platform and the course for
 ---
 
 ---
+## Course Introduction
+### Welcome to the Course!
+This course is designed to teach you the foundations of programming in Python. We’re excited to join you on this journey as you learn one of the most-in-demand job skills in IT today. In the U.S. alone, according to Burning Glass data from May 2019, there were ~530K job openings in 2018 asking for Python skills.
+### Course prerequisites
+This course requires no previous knowledge of programming. Familiarity with basic IT concepts, like operating systems, files and processes, networking and data management will be required in further courses. For learners with no IT background at all, we recommend taking the [IT Support Professional Certificate 101.](https://www.coursera.org/professional-certificates/google-it-support).
+
 
 ## Introduction to Programming
 ### What is programming?
