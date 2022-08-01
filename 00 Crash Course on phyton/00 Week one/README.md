@@ -213,6 +213,15 @@ name = "Blue"
 thing = "Sky"
 print(name + " is the color of " + thing)
 ```
+### Python Can Be Your Calculator
+````
+Now it’s your turn to try! Give this a go yourself.
+Use Python to calculate (((1+2)*3)/4)^5
+print((((1+2)*3)/4)**5)
+````
+
+Tip: remember that you can use a**b to calculate a to the power of b. 
+
 ### First Programming Concepts Cheat Sheet
 * [First Programming Concepts Cheat Sheet](https://www.coursera.org/learn/python-crash-course/supplement/nonTo/first-programming-concepts-cheat-sheet)
 
