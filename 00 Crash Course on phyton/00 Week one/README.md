@@ -198,6 +198,21 @@ There are different programming languages. Also, there are platform-specific scr
 * Kewwords in PyThon are reserved words tha are used to construct instruction
 * The print function in Python outputs messages to the screen.
     * The print function wraps text in quotation marks indicates that the text is considered a string, which means it's text that will be manipulated by our script.
+    
+```
+Now that you know what’s going on with this piece of code, try making Python output a different string. Write a Python script that outputs "I'm programming in Python!" to the screen. Remember that you need to use the print() function and use quotation marks to delimiter the string.
+print ("I'm programming in Python!")
+```
+### Getting Information from the User
+```
+name = "Green"
+thing = "Hope"
+print(name + " is the color of " + thing)
+
+name = "Blue"
+thing = "Sky"
+print(name + " is the color of " + thing)
+```
 ### First Programming Concepts Cheat Sheet
 * [First Programming Concepts Cheat Sheet](https://www.coursera.org/learn/python-crash-course/supplement/nonTo/first-programming-concepts-cheat-sheet)
 
