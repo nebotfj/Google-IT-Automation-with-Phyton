@@ -21,6 +21,16 @@ for ($i; $i -le 10; $i++) {
 """
 for i in range(10):
     print("Hello, World!")
+    # Hello, World!
+    # Hello, World!
+    # Hello, World!
+    # Hello, World!
+    # Hello, World!
+    # Hello, World!
+    # Hello, World!
+    # Hello, World!
+    # Hello, World!
+    # Hello, World!
 
 # Pratice Quiz- Fill in the correct Python comman to put "My first Python program" onto the screen.
 print("My first Python program")
