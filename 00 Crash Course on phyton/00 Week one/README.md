@@ -88,12 +88,37 @@ The benefits of autmation includes:
 
 However, some tasks that may require a degree of creativity or flexibility that automatic systems can't provide or for more complicated or less frequently executed tasks creating the automation may actually be more effort or cost than it's worth.
 
+```
+Let's check that this all made sense with a quick question!
+What’s automation?
+
+	* The process of telling a computer what to do
+	* The process of installing traffic lights
+	* The process of getting a haircut
+	* [CORRECT] The process of replacing a manual step with one that happens automatically
+```
+
 ### Getting Computers to Work for You
 Tasks performed by a computer that need to be done multiple times with little variation are really well suited for automation.
 
 Automation:
 * Helps avoid the possibility of human errors
 * Reduces the time it takes to do perfrom tasks
+
+```
+Which of the following tasks do you think are good candidates for automation? Check all that apply.
+
+* Installing software on laptops given to new employees when they are hired
+Correcto
+Right on! Installing and configuring software is a task that can be automated. Ensuring that everyone gets the exact same setup and reducing the amount of manual work needed for each new employee.
+
+* Periodically scanning the disk usage of a group of fileservers
+Correcto
+You nailed it! Scanning the disk usage is a task that can be easily automated. By letting the computer do it, you won't have to worry about forgetting to do it whenever it's needed.
+
+* Investigating reports that customers are having difficulty accessing your company's external website
+* Designing a configuration management system for deploying software patches
+```
 
 ---
 
