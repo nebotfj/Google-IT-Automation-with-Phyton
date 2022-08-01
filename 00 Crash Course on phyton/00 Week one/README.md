@@ -25,9 +25,9 @@ This course is designed to teach you the foundations of programming in Python. W
 This course requires no previous knowledge of programming. Familiarity with basic IT concepts, like operating systems, files and processes, networking and data management will be required in further courses. For learners with no IT background at all, we recommend taking the [IT Support Professional Certificate 101.](https://www.coursera.org/professional-certificates/google-it-support).
 ### How to pass the class
 You can review videos, readings, discussion forums, in-video questions, and practice quizzes in the program for free. However, to access graded assignments and be eligible to receive your official Google IT Support certificate, you must:
-*Pay the [course certificate fee](https://www.coursera.support/s/article/209818963-Payments-on-Coursera?language=en_US), or apply and be approved for [Coursera Financial Aid.](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=en_US).
+* Pay the [course certificate fee](https://www.coursera.support/s/article/209818963-Payments-on-Coursera?language=en_US), or apply and be approved for [Coursera Financial Aid.](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=en_US).
 AND
-*Pass all graded assignments in the six courses at the minimum passing level, or above. Each graded assignment in a course is part of a cumulative grade for that course. The passing score for each course is 80%.
+* Pass all graded assignments in the six courses at the minimum passing level, or above. Each graded assignment in a course is part of a cumulative grade for that course. The passing score for each course is 80%.
 ### How deadlines work
 When you enroll in the course, the system automatically sets a deadline for when you need to complete each section. Heads up: These deadlines are there to help you organize your time, but you can take the course at your own pace. If you "miss" a deadline, you can just reset it to a new date. There’s no time limit in which you have to finish the course, and you can earn the certificate whenever you finish.
 ### Getting and giving help
