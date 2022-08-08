@@ -179,17 +179,26 @@ Equality operators allows us to take the result of the expressions and use them 
 * a > b: a is bigger than b
 * a >= b: a is bigger or equal to b
 
-Logical operators allow connecting multiple statements together and perform more complex comparisons
-* a and b: True if both a and b are True. False otherwise.
-* a or b: True if either a or b or both are True. False if both are False.
-* not a: True if a is False, False if a is True.
-
 ````Python
 # Figure out what's the relationship between the strings "cat" and "Cat" by replacing the plus sign with comparison operators.
 print("cat" > "Cat")
 # "cat" is larger than "Cat"
 ````
 **In Python uppercase letters are alphabetically sorted before lowercase letters**
+
+Logical operators allow connecting multiple statements together and perform more complex comparisons: AND, OR, NOT:
+* a and b: True if both a and b are True. False otherwise.
+* a or b: True if either a or b or both are True. False if both are False.
+* not a: True if a is False, False if a is True.
+
+#### Comparasion Operators Recap
+In Python, we can use comparison operators to compare values. When a comparison is made, Python returns a boolean result, or simply a True or False. 
+- To check if two values are the same, we can use the equality operator: **==**
+- To check if two values are not the same, we can use the not equals operator: **!=**
+
+We can also check if values are greater than or lesser than each other using > and <. If you try to compare data types that aren’t compatible, like checking if a string is greater than an integer, Python will throw a **TypeError. 
+
+We can make very complex comparisons by joining statements together using logical operators with our comparison operators. These logical operators are and, or, and not. When using the and operator, both sides of the statement being evaluated must be true for the whole statement to be true. When using the or operator, if either side of the comparison is true, then the whole statement is true. Lastly, the not operator simply inverts the value of the statement immediately following it. So if a statement evaluates to True, and we put the not operator in front of it, it would become False.
 
 ### Branching with if Statements
 **Branching** is the ability of a program to alter its execution sequence.
