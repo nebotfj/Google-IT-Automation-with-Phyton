@@ -38,7 +38,7 @@ If you're ever not 100 percent sure what data types a certain value is, Python g
     * A value is assigned to a variable by using the equal sign in the form of variable equals value
 * An **expression** is a combination of numbers, symbols or other variables that produce a result when evaluated.
 
-````
+````Python
 Question
 Fill in the blanks to calculate the area of a triangle of base 5, height 3 and output the result.  Reminder:  the area of a triangle is (base*height)/2.
 
@@ -60,7 +60,7 @@ Below are some **restrictions** when naming variables in Python
    - Implicit conversion is where the interpreter helps us out and automatically converts one data type into another, without having to explicitly tell it to do so.
 * **Explicit conversion** takes place when a function is called to convert one data type into antother
    - explicit conversion is where we manually convert from one data type to another by calling the relevant function for the data type we want to convert to.
-````
+````Python
 Question
 In this scenario, we have a directory with 5 files in it. Each file has a different size: 2048, 4357, 97658, 125, and 8. Fill in the blanks to calculate the average file size by having Python add all the values for you, and then set the files variable to the number of files. Finally, output a message saying "The average size is: " followed by the resulting number. Remember to use the str() function to convert the number into a string. 
 
