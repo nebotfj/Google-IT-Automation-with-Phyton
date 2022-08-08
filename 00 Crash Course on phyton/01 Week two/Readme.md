@@ -169,9 +169,11 @@ rectangle_area(5,6)
 
 ## Conditionals
 ### Compare Things
+**Boolean**: One of two possible states: true or false
+
 Equality operators allows us to take the result of the expressions and use them to make decisions
 * a == b: a is equal to b
-* a != b: a is different than b
+* a != b: a is different than b # Not equals operatos
 * a < b: a is smaller than b
 * a <= b: a is smaller or equal to b
 * a > b: a is bigger than b
@@ -182,6 +184,11 @@ Logical operators allow connecting multiple statements together and perform more
 * a or b: True if either a or b or both are True. False if both are False.
 * not a: True if a is False, False if a is True.
 
+````Python
+# Figure out what's the relationship between the strings "cat" and "Cat" by replacing the plus sign with comparison operators.
+print("cat" > "Cat")
+# "cat" is larger than "Cat"
+````
 **In Python uppercase letters are alphabetically sorted before lowercase letters**
 
 ### Branching with if Statements
