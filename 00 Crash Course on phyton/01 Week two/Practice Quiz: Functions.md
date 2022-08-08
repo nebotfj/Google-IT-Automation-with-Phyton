@@ -45,8 +45,7 @@ print(smaller, bigger)
 -> Parameters: A parameter, also sometimes called an argument, is a value passed into a function for use within the function.
 - Data types
 
-4. Pregunta 4
-Let's revisit our lucky_number function. We want to change it, so that instead of printing the message, it returns the message. This way, the calling line can print the message, or do something else with it if needed. Fill in the blanks to complete the code to make it work.
+4. Let's revisit our lucky_number function. We want to change it, so that instead of printing the message, it returns the message. This way, the calling line can print the message, or do something else with it if needed. Fill in the blanks to complete the code to make it work.
 ````Python
 def lucky_number(name):
   number = len(name) * 9
