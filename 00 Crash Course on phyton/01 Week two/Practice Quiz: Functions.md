@@ -58,7 +58,7 @@ print(lucky_number("Cameron"))
 ````
 
 5. What is the purpose of the def keyword?
--> Used to define a new function: When defining a new function, we must use the def keyword followed by the function name and properly indented body.
+- > Used to define a new function: When defining a new function, we must use the def keyword followed by the function name and properly indented body.
 - Used to define a return value
 - Used to define a new variable
 - Used to define a new parameter
