@@ -97,7 +97,7 @@ We looked at a few examples of built-in functions in Python, but being able to d
 
 After the colon, the function body starts. It’s important to note that in Python the function body is delimited by indentation. This means that all code indented to the right following a function definition is part of the function body. The first line that’s no longer indented is the boundary of the function body. It’s up to you how many spaces you use when indenting -- just make sure to be consistent. So if you choose to indent with four spaces, you need to use four spaces everywhere in your code.
 
-### Reutrning Values
+### Returning Values
 The return statement allows us to:
 * Combine calls to functions
 * Perform more complex operations
@@ -106,6 +106,26 @@ The return statement allows us to:
  
 * **Double slash operator (//)** is called **floor division**. A floor division divides a number and takes the integer part of the division as the result.
 * **None** is a very special data type in Python used to indicate that things are empty or that they return nothing.
+
+````
+python
+Use the get_seconds function to work out the amount of seconds in 2 hours and 30 minutes, then add this number to the amount of seconds in 45 minutes and 15 seconds. Then print the result.
+
+def get_seconds(hours, minutes, seconds):
+  return 3600*hours + 60*minutes + seconds
+
+amount_a = get_seconds(2,30,0)
+amount_b = get_seconds(0,45,15)
+result = amount_a + amount_b
+print(result) #Output 11715 
+````
+#### Returning Values Using Functions
+Sometimes we don't want a function to simply run and finish. We may want a function to manipulate data we passed it and then return the result to us. This is where the concept of return values comes in handy. We use the return keyword in a function, which tells the function to pass data back. When we call the function, we can store the returned value in a variable. Return values allow our functions to be more flexible and powerful, so they can be reused and called multiple times.
+
+Functions can even return multiple values. Just don't forget to store all returned values in variables! You could also have a function return nothing, in which case the function simply exits.
+### The Principles of Code Reuse
+ME QUEDO AQUÍ
+
 
 ### Code Style
 A few principles in mind to create good well styled code are:
