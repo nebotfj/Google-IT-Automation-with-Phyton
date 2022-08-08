@@ -1,23 +1,34 @@
 # Crash Course of Python - Week 2
+In this module you’ll learn about different data types in Python, how to identify them, and how to convert between them. You’ll also learn how to use variables to assign data and to reference variables. You’ll deep dive into functions: 
+- how to define them, 
+- pass them parameters, 
+- and have them return information. 
+You’ll explore the concepts of code reuse, code style, and refactoring complex code, along with effectively using code comments. Finally, you’ll learn about comparing data using equality and logical operators, and leveraging these to build complex branching scripts using if statements.
 
 ## Learning Objectives
-* Write scripts that use variables of different data types
-* Understand how flow control works in Python
-* Implement branches with conditional expressions
-* Encapsulate code into functions
+- Objetivos de aprendizaje
+- Differentiate and convert between different data types utilizing variables
+- Define and call functions utilizing parameters and return data
+- Refactor code and write comments to reduce complexity and enhance code readability and code reuse
+- Compare values using equality operators and logical operators
+- Build complex branching scripts utilizing if, else and elif statements
 
 ---
 
 ## Expression and Variables
 ### Data Types
 There are different data tpyes in Python. Some of the examples include:
-* String which represents text wrapped in quotation marks to be manipulated by a script
+* String 
+   - which represents text wrapped in quotation marks to be manipulated by a script
+   - text in between quotes -- either single or double quotes --
 * Integer which represents whole numbers without a fraction (ex. 1)
-* Float which represents real numbers like a number with a fractional part (ex. 2.5)
+* Float 
+   - which represents real numbers like a number with a fractional part (ex. 2.5)
+   - An integer is a whole number, without a fraction, while a float is a real number that can contain a fractional part. For example, 1, 7, 342 are all integers, while 5.3, 3.14159 and 6.0 are all floats.
 
-Generally, computer doesn't know how to mix different data types - it results "TypeError".
+Generally, computer doesn't know how to mix different data types - it results "TypeError" (When attempting to mix incompatible data types).
 
-If you're ever not 100 percent sure what data types a certain value is, Python gives you a handy way to find out. You can use the type function, to have the computer tell you the type
+If you're ever not 100 percent sure what data types a certain value is, Python gives you a handy way to find out. You can use the type() function, to have the computer tell you the type
 
 ### Variables
 * **Variables** are names that we give to certain values in our programs - variables are like containers for data.
