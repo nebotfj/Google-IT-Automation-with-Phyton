@@ -107,8 +107,7 @@ The return statement allows us to:
 * **Double slash operator (//)** is called **floor division**. A floor division divides a number and takes the integer part of the division as the result.
 * **None** is a very special data type in Python used to indicate that things are empty or that they return nothing.
 
-````
-python
+````Python
 Use the get_seconds function to work out the amount of seconds in 2 hours and 30 minutes, then add this number to the amount of seconds in 45 minutes and 15 seconds. Then print the result.
 
 def get_seconds(hours, minutes, seconds):
