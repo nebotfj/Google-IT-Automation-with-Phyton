@@ -122,16 +122,48 @@ print(result) #Output 11715
 Sometimes we don't want a function to simply run and finish. We may want a function to manipulate data we passed it and then return the result to us. This is where the concept of return values comes in handy. We use the return keyword in a function, which tells the function to pass data back. When we call the function, we can store the returned value in a variable. Return values allow our functions to be more flexible and powerful, so they can be reused and called multiple times.
 
 Functions can even return multiple values. Just don't forget to store all returned values in variables! You could also have a function return nothing, in which case the function simply exits.
-### The Principles of Code Reuse
-ME QUEDO AQUÍ
 
+### The Principles of Code Reuse
+A lesson about how to clean code
+
+````Phyton
+In this code, identify the repeated pattern and replace it with a function called month_days, that receives the name of the month and the number of days in that month as parameters. Adapt the rest of the code so that the result is the same. Confirm your results by making a function call with the correct parameters for both months listed.
+
+# REPLACE THIS STARTER CODE WITH YOUR FUNCTION
+june_days = 30
+print("June has " + str(june_days) + " days.")
+july_days = 31
+print("July has " + str(july_days) + " days.")
+
+
+# REPLACE THIS STARTER CODE WITH YOUR FUNCTION
+def month_days(month,days):
+    print(month +" has " + str(days) +" days. ")
+month_days("June","30")
+month_days("July","31")
+
+````
 
 ### Code Style
 A few principles in mind to create good well styled code are:
-1. Code to be self-documenting as possible
+1. Code to be self-documenting as possible: Refactoring
     * Self-documenting code is written in a way that's readable and doesn't conceal its intent. 
 2. Leave a comment to add a bit of explanatory texts to the code
-    * In Python, comments are indicated by the hash character
+    * In Python, comments are indicated by the hash character (#)
+````Python
+# This id how to write a comment in Python
+````
+````Python
+This function to calculate the area of a rectangle is not very readable. Can you refactor it, and then call the function to calculate the area with base of 5 and height of 6?
+Tip: a function that calculates the area of a rectangle should probably be called rectangle_area, and if it's receiving base and height, that's what the parameters should be called.
+
+def rectangle_area(base, height):
+	z = base*height  # the area is base*height
+	print("The area is " + str(z))
+rectangle_area(5,6)
+# Refactoring consists in clarifying the name of the variables to remove doubts about their interpretation.
+# Here is your output: The area is 30
+````
 
 ---
 
