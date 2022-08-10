@@ -204,8 +204,7 @@ We can make very complex comparisons by joining statements together using logica
 - Using the **not** operator simply inverts the value of the statement immediately following it. So if a statement evaluates to True, and we put the not operator in front of it, it would become False.
 
 ### Branching with if Statements
-ME QUEDO AQUI
-**Branching** is the ability of a program to alter its execution sequence.
+**Branching** is the ability of a program to alter its execution sequence  depending on the values of variables.
 
 if block vs. defined function
 | Similarities | Differences |
@@ -214,14 +213,82 @@ if block vs. defined function
 * Colon is used at the end of the first line
 * The body of the function or the if block is indented to the right | * The body of the if block will only execute when the condition evaluates to true; otherwise, it skipped |
 
+We can use an if statement to evaluate a comparison.
+- We start with the if keyword, followed by our comparison. 
+- We end the line with a colon. 
+- The body of the if statement is then indented to the right. 
+	- If the comparison is True, the code inside the if body is executed. 
+	- If the comparison evaluates to False, then the code block is skipped and will not be run.
+
 ### else Statements
+We just covered the if statement, which executes code if an evaluation is true and skips the code if it’s false. But what if we wanted the code to do something different if the evaluation is false? We can do this using the else statement. The else statement follows an if block, and is composed of the keyword else followed by a colon. The body of the else statement is indented to the right, and will be executed if the above if statement doesn’t execute.
+
 * The **modulo operator** is represented by the percentage sign (%) and __returns the remainder of the integer division between two numbers__. 
 * **The integer division is an operation between integers that yields two results which are both integers, the quotient and the remainder.*
 * When a return statement is executed, the function exits so that the code that follows doesn't get executed.
 
-### elif Statements
+This operator performs integer division, but only returns the remainder of this division operation. If we’re dividing 5 by 2, the quotient is 2, and the remainder is 1. Two 2s can go into 5, leaving 1 left over. So 5%2 would return 1. Dividing 10 by 5 would give us a quotient of 2 with no remainder, since 5 can go into 10 twice with nothing left over. In this case, 10%2 would return 0, as there is no remainder.
+
+````Python
+The is_positive function should return True if the number received is positive and False if it isn't. Can you fill in the gaps to make that happen?
+def is_positive(number):
+  if number > 0:
+    return True
+  else:
+    return False
+    ````
+
+### elif Statements (else if)
 The main difference between elif and if statements is that an elif block can be only written as as a companion to an if block.
 
+Building off of the if and else blocks, which allow us to branch our code depending on the evaluation of one statement, the elif statement allows us even more comparisons to perform more complex branching. 
+Very similar to the if statements, an elif statement starts with the elif keyword, followed by a comparison to be evaluated. This is followed by a colon, and then the code block on the next line, indented to the right. 
+An elif statement must follow an if statement, and will only be evaluated if the if statement was evaluated as false. You can include multiple elif statements to build complex branching in your code to do all kinds of powerful things!
+
+````Python
+The number_group function should return "Positive" if the number received is positive, "Negative" if it's negative, and "Zero" if it's 0. Can you fill in the gaps to make that happen?
+def number_group(number): 
+  if number > 0:
+    return "Positive"
+  elif number == 0:
+    return "Zero"
+  else:
+    return "Negative"
+
+print(number_group(10)) #Should be Positive
+print(number_group(0)) #Should be Zero
+print(number_group(-5)) #Should be Negative
+````
+
+### Conditionals Cheat Sheet
+In earlier videos, we took a look at some of the built-in Python operators that allow us to compare values, and some logical operators we can use to combine values. We also learned how to use operators in if-else-elif blocks. 
+
+It’s a lot to learn but, with practice, it gets easier to remember it all. In the meantime, this handy cheat sheet gives you all the information you need at a glance. 
+
+#### Comparison operators
+- a == b: a is equal to b
+- a != b: a is different than b
+- a < b: a is smaller than b
+- a <= b: a is smaller or equal to b
+- a > b: a is bigger than b
+- a >= b: a is bigger or equal to b
+
+#### Logical operators
+- a and b: True if both a and b are True. False otherwise.
+- a or b: True if either a or b or both are True. False if both are False.
+- not a: True if a is False, False if a is True.
+
+#### Branching blocks
+In Python, we branch our code using if, else and elif. This is the branching syntax:
+````Python
+if condition1:
+	if-block
+elif condition2:
+	elif-block
+else:
+	else-block
+````
+Remember: The if-block will be executed if condition1 is True. The elif-block will be executed if condition1 is False and condition2 is True. The else block will be executed when all the specified conditions are false.
 ---
 
 ## Credit
