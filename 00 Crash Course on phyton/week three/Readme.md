@@ -138,9 +138,9 @@ However, use caution when using nested for loops since the longer the list your 
 teams = [ 'Dragons', 'Wolves', 'Pandas', 'Unicorns']
 for home_team in teams:
     for away_team in teams:
-    ````
+````
+    
 What should the next line be to avoid both variables being printed with the same value?
-
 - while home_team != away_team:
 - for home_team == away_team:
 - away_team = home_team
@@ -165,7 +165,7 @@ Syntax:
 ````Python
 while condition:
     body
-    ````
+````
 Things to watch out for!
 - Failure to initialize variables. Make sure all the variables used in the loop’s condition  are initialized before the loop.
 - Unintended infinite loops. Make sure that the body of the loop modifies the variables used in the condition, so that the loop will eventually end for all possible values of the variables.
@@ -180,7 +180,7 @@ Syntax:
 ````Python
 for variable in sequence:
     body
-    ````
+````
 The range() function:
 range() generates a sequence of integer numbers. It can take one, two, or three parameters:
 - range(n): 0, 1, 2, ... n-1
