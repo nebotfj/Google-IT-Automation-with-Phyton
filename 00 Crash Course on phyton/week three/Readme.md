@@ -207,6 +207,28 @@ If you want to learn more, check out this [wiki page on for loops](https://wiki.
 
 In Python, a recursive function can be called up to 1,000 times.
 
+#### Recursion in Action in the IT Context
+Which of the following scenarios would benefit the most from using a recursive function to solve the problem?
+- You need to print out a list of the employees in your company.
+- You need to know how many files are present in a single directory of your computer.
+- **You need to create a family tree, showing several generations of your ancestors, with all of their children.**
+- You need to calculate the square root of numbers 1 through 10.
+
+#### Additional Recursion Sources
+In the past videos, we visited the basic concepts of recursive functions.
+
+A recursive function must include a recursive case and base case. The recursive case calls the function again, with a different value. The base case returns a value without calling the same function.
+
+A recursive function will usually have this structure:
+````Python
+def recursive_function(parameters):
+    if base_case_condition(parameters):
+        return base_case_value
+    recursive_function(modified_parameters)
+````
+For more information on recursion, check out these resources:
+- [Wikipedia Recursion page](https://en.wikipedia.org/wiki/Recursion)
+- [See what happens when you Search Google for Recursion](https://www.google.com/search?q=recursion)
 ---
 
 
