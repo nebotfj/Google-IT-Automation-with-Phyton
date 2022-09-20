@@ -58,7 +58,7 @@ The [official language reference](https://docs.python.org/3/reference/index.html
 ### What is programming?
 At a basic level, a computer program is a recipe of instructions that tells your computer what to do. When you write a program, you create a step by step recipe of what needs to be done to complete a task and when your computer executes the program it reads what you wrote and follows your instructions to the letter.
 
-```
+```py
 Did you get all that? Let's check with a quick question!
 Why do we need to learn the syntax and semantics of a programming language?
      * To be able to easily switch to a different programming language
@@ -88,7 +88,7 @@ The benefits of autmation includes:
 
 However, some tasks that may require a degree of creativity or flexibility that automatic systems can't provide or for more complicated or less frequently executed tasks creating the automation may actually be more effort or cost than it's worth.
 
-```
+```py
 Let's check that this all made sense with a quick question!
 What’s automation?
 
@@ -105,7 +105,7 @@ Automation:
 * Helps avoid the possibility of human errors
 * Reduces the time it takes to do perfrom tasks
 
-```
+```py
 Which of the following tasks do you think are good candidates for automation? Check all that apply.
 
 * Installing software on laptops given to new employees when they are hired
@@ -137,7 +137,7 @@ If your syntax is correct, but the script has unexpected behavior or output, thi
 
 When working with the code blocks in exercises for this course, be mindful of syntax errors, along with the overall result of your code. Just because you fixed a syntax error doesn't mean that the code will have the desired effect when it runs! Once you’ve fixed an error in your code, don't forget to submit it to have your work checked.
 
-```
+```py
 Let's check whether you soaked all that in with a quick question! Select all options that explain why Python is relevant to today’s IT industry.
 * Python scripts are easy to write, understand, and maintain.
 Correcto
@@ -204,7 +204,7 @@ Now that you know what’s going on with this piece of code, try making Python o
 print ("I'm programming in Python!")
 ```
 ### Getting Information from the User
-```
+```py
 name = "Green"
 thing = "Hope"
 print(name + " is the color of " + thing)
@@ -214,7 +214,7 @@ thing = "Sky"
 print(name + " is the color of " + thing)
 ```
 ### Python Can Be Your Calculator
-````
+````py
 Now it’s your turn to try! Give this a go yourself.
 Use Python to calculate (((1+2)*3)/4)^5
 print((((1+2)*3)/4)**5)
