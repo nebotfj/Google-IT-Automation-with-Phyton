@@ -58,7 +58,7 @@ The [official language reference](https://docs.python.org/3/reference/index.html
 ### What is programming?
 At a basic level, a computer program is a recipe of instructions that tells your computer what to do. When you write a program, you create a step by step recipe of what needs to be done to complete a task and when your computer executes the program it reads what you wrote and follows your instructions to the letter.
 
-```py
+```php
 Did you get all that? Let's check with a quick question!
 Why do we need to learn the syntax and semantics of a programming language?
      * To be able to easily switch to a different programming language
