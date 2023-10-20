@@ -261,7 +261,7 @@ If the placeholders include a colon, what comes after the colon is a formatting 
 | Expr | Meaning | Example |
 
 | --- | --- | --- |
-{:d} | integer value | '{:d}'.format(10.5) → '10' |
+| {:d} | integer value | '{:d}'.format(10.5) → '10' |
 
 | {:.2f} | floating point with that many decimals | '{:.2f}'.format(0.5) → '0.50' |
 
