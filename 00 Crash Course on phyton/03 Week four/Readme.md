@@ -7,13 +7,13 @@ Objetivos de aprendizaje
 - Combine these data types to construct complex data structures
 
 
-STRINGS
+# STRINGS
 
 ## BASIC STRUCTURES INTRODUCTION
 
 Welcome back and congratulations on getting this far. I sure I'm glad we didn't lose you and all those loops we covered in the last module. You're doing great and making tons of progress. In earlier videos, we covered the basic elements of Python syntax. We talked about how to define functions, how to make your computer act differently based on conditionals, and how to make it perform operations repeatedly using while, and for loops, and recursion. Now that we have the basics of syntax out of the way, we can start growing our Python knowledge which will let us do more and more interesting operations. Remember, one of our main goals in this course is to help you learn to write short Python scripts that automate actions, you've made big steps towards getting there. In the upcoming videos, we're going to learn a bunch of new super useful skills to add to your programming toolbox. We'll check out some datatypes provided by the Python language to help us solve common problems with our scripts. In particular, will do a deep dive into strings, lists, and dictionaries. Heads-up, while we've used strings in our scripts already, we barely scratched the surface of all the things we can do with them in Python. We also ran into a few lists in some examples but there's a lot more of them we haven't seen yet. Dictionaries are a whole new datatype for us to dig our teeth into. These are all data types or data structures that are super flexible. We're going to use them to write all kinds of scripts in Python. So it's a good idea to spend some time getting to know them, and learning when to use them, and how to make the most out of them. We've got a lot of new and exciting concepts to discover. So let's get right to it.
         
-   ## WHAT IS A STRING?
+## WHAT IS A STRING?
 
    By now, we've used strings in a lot of examples, but we haven't spent time looking at them in detail yet. Before we dive into the nitty-gritty though, let's go over what we've seen so far and add a few more points. First, a quick refresher. A string is a data type in Python that's used to represent a piece of text. It's written between quotes, either double quotes or single quotes, your choice. It doesn't matter which type of quotes you use as long as they match. If we mix up double and single quotes, Python won't be too happy, and it'll return a syntax error, telling us it couldn't find the end of the string. A string can be as short as zero characters, usually called an empty string or really long. We also learned that we can use strings to build longer strings using the plus sign and action called concatenating. A less common operation is to multiply the string by a number, which multiplies the content of the string that many times like this. If we want to know how long a string is, we can use the len function which we saw in earlier videos. The len function tells us the number of characters contained in the string. We can use strings to represent a lot of different things. They can hold a username, the name of a machine, an email address, the name of a file, and any other text. A lot of the data that we'll interact with will be stored in strings, so it's important to know how to use them. There are tons of things we could do with strings in our scripts. For example, we can check if files are named a certain way by looking at the filename and seeing if they match our criteria, or we can create a list of emails by checking out the users of our system and concatenating our domain. I recently wrote a script that worked with a bunch of files and took different actions according to the name of each file. So the file ended in a certain extension say, .TXT , then my script would print it. If the file had a certain string and the name, say, test, then my script would ignore it and move on to the next thing and so on. The contents of a text file are also strings. A few months ago, I had to change the default values for a bunch of configuration options from true to false. So I wrote a function that would find the string true in a file and replace it with false. You can probably think of more examples where your code needs to handle strings, but to use strings effectively, we need to know what options are available to us in Python. In the next few videos, we'll cover some of the operations we can perform over strings, including how to access parts of them and modify them.
 ````Python
@@ -179,7 +179,7 @@ string[i] - Accesses the character at index i of the string, starting at zero
 
 string[i:j] - Accesses the substring starting at index i, ending at index j minus 1. If i is omitted, its value defaults to 0. If j is omitted, the value will default to len(string).
 
-String methods
+### String methods
 string.lower() - Returns a copy of the string with all lowercase characters
 string.upper() - Returns a copy of the string with all uppercase characters
 string.lstrip() - Returns a copy of the string with the left-side whitespace removed
@@ -195,4 +195,163 @@ delimiter.join(list of strings) - Returns a new string with all the strings join
 
 [Check out the official documentation for  all available String methods](https://docs.python.org/3/library/stdtypes.html#string-methods)
 
-.  
+
+
+## Formatting Strings Guide
+
+Python offers different ways to format strings. In the video, we explained the format() method. In this reading, we'll highlight three different ways of formatting strings. For this course you only need to know the format() method. But on the internet, you might find any of the three, so it's a good idea to know that the others exist.
+
+### Using the format() method
+The format method returns a copy of the string where the {} placeholders have been replaced with the values of the variables. These variables are converted to strings if they weren't strings already. Empty placeholders are replaced by the variables passed to format in the same order.
+
+````
+# "base string with {} placeholders".format(variables)
+
+example = "format() method"
+
+formatted_string = "this is an example of using the {} on a string".format(example)
+
+print(formatted_string)
+
+"""
+''''
+Outputs:
+this is an example of using the format() method on a string
+````
+
+If the placeholders indicate a number, they’re replaced by the variable corresponding to that order (starting at zero).
+````
+# "{0} {1}".format(first, second)
+
+first = "apple"
+second = "banana"
+third = "carrot"
+
+formatted_string = "{0} {2} {1}".format(first, second, third)
+
+print(formatted_string)
+"""Outputs:
+apple carrot banana
+"""
+
+````
+
+If the placeholders indicate a field name, they’re replaced by the variable corresponding to that field name. This means that parameters to format need to be passed indicating the field name.
+
+````
+1
+# "{var1} {var2}".format(var1=value1, var2=value2)
+````
+````
+1
+"{:exp1} {:exp2}".format(value1, value2)
+````
+If the placeholders include a colon, what comes after the colon is a formatting expression. See below for the expression reference.
+
+[Official documentation for  the format string syntax](https://docs.python.org/3/library/string.html#formatstrings).
+
+````
+12
+# {:d} integer value
+'{:d}'.format(10.5) → '10'
+````
+
+
+### Formatting expressions
+Expr
+
+Meaning
+
+Example
+
+{:d}
+
+integer value
+
+'{:d}'.format(10.5) → '10'
+
+{:.2f}
+
+floating point with that many decimals
+
+'{:.2f}'.format(0.5) → '0.50'
+
+{:.2s}
+
+string with that many characters
+
+'{:.2s}'.format('Python') → 'Py'
+
+{:<6s}
+
+string aligned to the left that many spaces
+
+'{:<6s}'.format('Py') → 'Py    '
+
+{:>6s}
+
+string aligned to the right that many spaces
+
+'{:>6s}'.format('Py') → '    Py'
+
+{:^6s}
+
+string centered in that many spaces
+
+'{:^6s}'.format('Py') → '  Py  '
+
+[Check out the official documentation for all available expressions](https://docs.python.org/3/library/string.html#format-specification-mini-language).
+.
+
+### Old string formatting (Optional)
+The format() method was introduced in Python 2.6. Before that, the % (modulo) operator could be used to get a similar result. While this method is no longer recommended for new code, you might come across it in someone else's code. This is what it looks like:
+
+ "base string with %s placeholder" % variable
+
+The % (modulo) operator returns a copy of the string where the placeholders indicated by %  followed by a formatting expression are replaced by the variables after the operator.
+
+
+ "base string with %d and %d placeholders" % (value1, value2)
+
+To replace more than one value, the values need to be written between parentheses. The formatting expression needs to match the value type.
+
+ 
+
+"%(var1) %(var2)" % {var1:value1, var2:value2}
+
+Variables can be replaced by name using a dictionary syntax (we’ll learn about dictionaries in an upcoming video).
+
+ 
+
+"Item: %s - Amount: %d - Price: %.2f" % (item, amount, price)
+
+The formatting expressions are mostly the same as those of the format() method. 
+
+[Check out the official documentation for  old string formatting](https://docs.python.org/3/library/stdtypes.html#old-string-formatting).
+
+### Formatted string literals (Optional)
+This feature was added in Python 3.6 and isn’t used a lot yet. Again, it's included here in case you run into it in the future, but it's not needed for this or any upcoming courses.
+
+A formatted string literal or f-string is a string that starts with 'f' or 'F' before the quotes. These strings might contain {} placeholders using expressions like the ones used for format method strings.
+
+The important difference with the format method is that it takes the value of the variables from the current context, instead of taking the values from parameters.
+
+ Examples:
+
+>>> name = "Micah"
+>>> print(f'Hello {name}')
+Hello Micah
+
+
+>>> item = "Purple Cup"
+>>> amount = 5
+>>> price = amount * 3.25
+>>> print(f'Item: {item} - Amount: {amount} - Price: {price:.2f}')
+
+Item: Purple Cup - Amount: 5 - Price: 16.25
+[Check out the official documentation for  f-strings](https://docs.python.org/3/reference/lexical_analysis.html#f-strings)
+.
+
+
+
+
