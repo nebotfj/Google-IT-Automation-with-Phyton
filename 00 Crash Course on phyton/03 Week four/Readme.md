@@ -259,7 +259,7 @@ If the placeholders include a colon, what comes after the colon is a formatting 
 
 ### Formatting expressions
 | Expr | Meaning | Example |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | `{:d}` | integer value | '{:d}'.format(10.5) → '10' |
 | `{:.2f}` | floating point with that many decimals | '{:.2f}'.format(0.5) → '0.50' |
 | `{:.2s}` | string with that many characters | '{:.2s}'.format('Python') → 'Py' |
