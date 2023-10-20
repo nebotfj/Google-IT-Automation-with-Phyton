@@ -156,7 +156,7 @@ print(initials("local area network")) # Should be: LAN
 print(initials("Operating system")) # Should be: OS
 ````
 
-## FORMATTING STRINGS
+## FORMATTING STRINGS - The format() method.
 
 You can use the format method on strings to concatenate and format strings in all kinds of powerful ways. To do this, create a string containing curly brackets, {}, as a placeholder, to be replaced. Then call the format method on the string using .format() and pass variables as parameters. The variables passed to the method will then be used to replace the curly bracket placeholders. This method automatically handles any conversion between data types for us. 
 
