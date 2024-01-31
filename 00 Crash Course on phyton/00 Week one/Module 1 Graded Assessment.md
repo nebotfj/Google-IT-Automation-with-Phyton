@@ -47,7 +47,7 @@ Woohoo! Each language has its pros and cons. The best language to choose will de
 * Programming languages are so different that learning a second one is harder than learning the first one. 
 
 6. Write a Python script that outputs "Automating with Python is fun!" to the screen.
-````
+````python 
 print ("Automating with Python is fun!")
 ````
 
